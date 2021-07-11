@@ -16,6 +16,7 @@ def merge_sort(arr):
         else:
             merged_arr.append(r_arr[r])
             r += 1
+
     #위의 while문에서 둘 중 먼저 정렬이 끝난 리스트가 있으면 나머지 요소들과 함께 병합한다.
     merged_arr += l_arr[l:]
     merged_arr += r_arr[r:]
